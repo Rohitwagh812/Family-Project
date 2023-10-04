@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+
+/* This view for a mabile devices view */
+
+/* mobile start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open+Sans";
+}
+
+.one .left{
+    height: 60vh;
+    padding: 2rem;
+    background: url(./asstes/Get\ started\ in\ Canva\ \(6\).jpg);
+    background-size: cover;
+}
+
+
+.one .left h1{
+    margin-top: 2vh;
+    font-size: 2.2rem;
+}
+
+.one .left p{
+    margin-top: 2vh;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #880e4f;
+}
+
+
+.one .left h1 span{
+    color: #e94b12;
+    font-size: 3.5rem;
+}
+
+  
+
+.one .right{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    background: url(./asstes/Screenshot\ 2023-03-01\ 144002.png);
+    background-size: cover;
+}
+
+.one .right img{
+     height: 20rem;
+     width: 100%;
+}
+
+
+.two{ 
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+.two .box {
+    padding: 1rem;
+    border: 1px solid #1e88e5;
+}
+
+.two .box button{
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background: royalblue;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two .box img{
+    height: 2rem;
+ 
+}
+
+.three .left {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      background: url(./asstes/Screenshot\ 2023-03-01\ 144719.png);
+      background-size: cover;
+}
+
+.three .left img{
+   height: 20rem;
+   width: auto;
+}
+
+.three .right{
+    padding: 1rem;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    background: url(./asstes/Get\ started\ in\ Canva\ \(6\).jpg);
+    background-size: cover;
+}
+
+.three .right form{
+    margin-top: 0.7rem;
+    background: white;
+  height: 57vh;
+  width: 70vw;
+  border-radius: 20px;
+}
+
+.three .right .item{
+    border: none;
+    padding: 16px;
+}
+
+.three .right .item input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.three .right .item  textarea{
+     border: none;
+     border-bottom: 1px solid black;
+}
+
+.three .right button{
+    padding: 0.5rem;
+    margin-left: 2rem;
+
+    background: royalblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* mobile view end */
+
+
+/* madia Queries section */
+
+/* view for Tablet start */
+
+
+@media screen and (min-width: 700px) {
+     
+
+    .one .left{
+         height: auto;
+       
+        background: #80deea;
+        background-size: 60%;
+    }
+
+    .one .left h1{
+        font-size: 2.5rem;
+        
+      
+    }
+    
+      .one .left h1 span{
+        font-size: 5rem;
+        font-weight: bold;
+    
+      }
+    
+      .one .left p{
+        font-size: 1.4rem;
+        color: black;
+      }
+
+      .one .right{
+        height: auto;
+        background: #f5b3b3;
+      }
+    
+
+      .one .right img{
+        margin-bottom: 2rem;
+        margin-left: -1rem;
+      }
+
+      .two .box{
+        padding: 0.8rem;
+      }
+
+      .two .box img {
+        width: 3rem;
+      }
+
+      .two .box h3 {
+        font-size: 1rem;
+      }
+
+      .three .left {
+        height: 60vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+    
+      }
+
+
+      .three .left img{
+        height: 26rem;
+        
+      }
+
+
+      .three .right{
+        height: 85vh;
+        width: auto;
+      }
+
+      .three .right form{
+        height: 75vh;
+        width: 50vw;
+        margin-top: 1rem;
+      }
+
+    
+}
+/* end */
+
+/* laptop and copmutr view */
+
+@media screen and (min-width: 1200px)   {
+    
+    .one{
+        display: grid;
+        grid-template-columns: 50% auto;
+    }
+
+    .one .left{
+        height: auto;
+    }
+
+    .one .right{
+        height: auto;
+    }
+    
+    .three{
+        
+        display: grid;
+        grid-template-columns: 50% auto;
+
+}
+
+.three .left{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.three .left img{
+    height: auto;
+    margin-right: auto;
+}
+
+.three .right form{
+    margin-top: -0;
+    margin-left: -6rem;
+    height: 70vh;
+    width: 20vw;
+}
+
+.three .right form button{
+    margin-top: 0.9rem;
+}
+
+.three .right form button a{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Open+Sans";
+}
+
+}
